@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7e4YyKE8wAxQa/UJp0kxAmWaP5U2p8x9IsC1oKst0pS9RQPxihr8FgO/Z4ohLfHGjPOVvWHEmmEQ95dcd65C3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Meitar\\source\\repos\\FlightsClient\\FlightsClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Meitar\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",
+    "C:\\Users\\Meitar\\.nuget\\packages\\microsoft.jquery.unobtrusive.ajax\\3.2.6\\microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}

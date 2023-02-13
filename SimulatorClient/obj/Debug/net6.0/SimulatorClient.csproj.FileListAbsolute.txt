@@ -1,0 +1,15 @@
+C:\Users\Meitar\source\repos\SimulatorClient\bin\Debug\net6.0\SimulatorClient.exe
+C:\Users\Meitar\source\repos\SimulatorClient\bin\Debug\net6.0\SimulatorClient.deps.json
+C:\Users\Meitar\source\repos\SimulatorClient\bin\Debug\net6.0\SimulatorClient.runtimeconfig.json
+C:\Users\Meitar\source\repos\SimulatorClient\bin\Debug\net6.0\SimulatorClient.dll
+C:\Users\Meitar\source\repos\SimulatorClient\bin\Debug\net6.0\SimulatorClient.pdb
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\SimulatorClient.csproj.AssemblyReference.cache
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\SimulatorClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\SimulatorClient.AssemblyInfoInputs.cache
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\SimulatorClient.AssemblyInfo.cs
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\SimulatorClient.csproj.CoreCompileInputs.cache
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\SimulatorClient.dll
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\refint\SimulatorClient.dll
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\SimulatorClient.pdb
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\SimulatorClient.genruntimeconfig.cache
+C:\Users\Meitar\source\repos\SimulatorClient\obj\Debug\net6.0\ref\SimulatorClient.dll

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<LoggerDto>;
+<div id="page">
+<h1>Flight Control</h1>
+<table id="log-table">
+    <thead>
+        <tr>
+            <th>Terminal</th>
+            <th>Airline</th>
+            <th>Flight Number</th>
+            <th>Enter Time</th>
+            <th>Exit Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model)
+        {
+                <tr class="@(log.Out == null ? "" : "highlighted")">
+                <td>@log.Terminal.Number</td>
+                <td>@log.Flight.Airline</td>
+                <td>@log.Flight.FlightNumber</td>
+                <td>@log.In</td>
+                <td class="out-column">@log.Out</td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
+<script>
+    function updateTable() {
+        $.ajax({
+            url: "@Url.Action("Index", "Home")",
+            type: 'GET', // <-- make a async request by GET
+            dataType: 'html', // <-- to expect an html response
+            success: function (result) {
+                $('#page').html(result);
+            }
+        });
+    }
+    $(document).ready(function () {
+
+        updateTable(); // first time
+
+        // re-call the function every second
+        window.setInterval("updateTable()", 1000);
+
+    });
+</script>
+
+
+
+
+
+
+
+

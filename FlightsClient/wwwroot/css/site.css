@@ -1,0 +1,58 @@
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #2196f3;
+    color: #ffffff;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+@keyframes out-update {
+    from {
+        background-color: #d9edf7;
+    }
+
+    to {
+        background-color: #ffffff;
+    }
+}
+.highlighted {
+    animation-name: out-update;
+    animation-duration: 4s;
+}
+h1 {
+    text-align: center;
+}
+
